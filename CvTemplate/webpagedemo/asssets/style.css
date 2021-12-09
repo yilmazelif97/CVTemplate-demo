@@ -1,0 +1,256 @@
+.container{
+    display: flex;
+    /* flex-direction: row; */
+    margin: 20px;
+    padding: 10px;
+    margin-top: 3px;
+
+    justify-content: center;
+    
+}
+
+.imagecontainer{
+position: relative;
+}
+
+.name{
+    position: absolute;
+  bottom: 15px;
+  right: 20px;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 18px;
+    
+}
+
+.leftpart{
+    
+    background-color: rgb(241, 241, 241);
+
+    padding-top: 20px;
+    flex-basis: 40%;
+    margin: 5px;
+    flex-direction: column;
+
+}
+
+.rightpart{
+
+    background-color: rgb(241, 241, 241);
+
+    padding-top: 20px;
+    flex-basis: 60%;
+    margin: 5px;
+    flex-direction: column;
+
+
+}
+
+.thirdpart{
+    background-color: rgb(214, 202, 202);
+
+    padding-top: 20px;
+    flex-basis: 75%;
+    margin: 5px;
+    gap: 10px 20px;
+
+    /* align-self: flex-end; */
+    flex-wrap: wrap;
+
+    
+    align-self: flex-end;
+    height: 100px;
+    flex-direction: column;
+
+}
+
+.detaildesign{
+    font-size: 18px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: lightslategray;
+    margin: 3px;
+    color: gray;
+
+
+   
+}
+.line{
+    width:75%;
+    text-align:left;
+    margin-left:0
+    }
+
+.image{
+    width: 100%;
+    position: relative;
+}
+
+.icon{
+    color: green;
+}
+
+
+p.detaildesign{
+
+    font-size: 14px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: lightslategray;
+    margin: 3px;
+    color: gray;
+    padding: 2px;
+
+}
+
+.designhr{
+    opacity: 0.3;
+    
+}
+
+.subtitles{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: #757575;
+    padding: 5px;
+    margin-top: 3px;
+    margin: 3px;
+}
+
+.styleofp{
+    font-size: 15px;
+
+    color: #757575;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3px;
+
+    padding-top: 18px;
+}
+
+.progressbarwithoutnumber{
+    background-color: rgb(16, 29, 66);
+    border-radius: 10%;
+    color: white;
+    border-radius: 25px;
+
+}
+
+.deneme{
+    height:24px;
+    width:20%;
+    border-style: solid;
+    
+
+}
+
+.progressbar {
+    /* background-color: rgb(192, 192, 192); */
+    width: 80%;
+    border-radius: 15px;
+    border-radius: 25px;
+    margin: 5px;
+
+}
+
+.skill {
+    background-color: rgb(17, 67, 80);
+    color: white;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.adobephotoshop {
+    width: 90%;
+    margin-top: 5px;
+}
+
+.phorotgraphy{
+    width: 80%;
+    margin-top: 5px;
+
+
+}
+
+.illustraor{
+    width: 75%;
+    margin-top: 5px;
+
+
+}
+
+.media{
+    width: 50%;
+    margin-top: 5px;
+
+}
+
+.styleoflanguage{
+
+    font-size: 15px;
+
+    color: #757575;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 3px;
+
+    padding-top: 18px;
+    border-radius: 25px;
+
+}
+
+.titleofright{
+    font-size: 28px; 
+    color: darkgrey;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p.titleofright{
+
+    font-size: 28px;     
+    color: lightslategray;
+    margin: 3px;
+    padding: 2px;
+
+}
+
+.denemeb{
+    margin: 5px;
+    margin-top: 5px;
+}
+
+.subtitlesrightpart{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: #5c5a5a;
+    padding: 5px;
+    margin-top: 3px;
+    margin: 3px;
+}
+
+
+.dd{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+   
+    background-color: rgb(57, 163, 199);
+
+    padding-top: 20px;
+    flex-basis: 75%;
+    margin: 5px;
+    flex-direction: column;
+    display: flex;
+
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+footer>i:hover{
+    color: pink;
+}
